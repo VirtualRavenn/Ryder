@@ -10,7 +10,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.author.id === "416418286184431636") message.reply("**Fool** you aren't suppose to be in here.");
+  if (message.author.id === "416418286184431636") message.reply("Watch the road, **motherfucker**, the road!");
 });
 
 client.login(process.env.BOT_TOKEN);
