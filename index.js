@@ -14,7 +14,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.author.id === "417500499424706560") message.reply("Oh man, we gonna die!");
+  if (message.author.id === "417500499424706560") message.reply("Oh man, we gonna **die!**");
 });
 
 client.login(process.env.BOT_TOKEN);
